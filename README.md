@@ -1,5 +1,6 @@
 # arp_scanner
 A Flutter plugin for discovers devices on local network. It return IP v4 address, Mac Address,Interface Vendor and host name.
+forked to fix the time variable null issue in release apk!
 ## Limit
 - Plugin only support Android SDK Version 29 and below
 - The hostname resolve only work in 2.4G Wifi, otherwise return null
