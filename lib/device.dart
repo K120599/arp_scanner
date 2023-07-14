@@ -10,7 +10,7 @@ class Device {
       : ip = json["ip"],
         hostname = json["hostname"],
         mac = json["mac"],
-        time = json["time"].toString(),
+        time = json["time"],
         vendor = json["vendor"];
 
   Map<String, dynamic> toJson() => {
